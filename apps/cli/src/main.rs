@@ -8,7 +8,7 @@ use std::sync::Arc;
 
 #[derive(Parser)]
 #[command(name = "termbrain")]
-#[command(about = "TermBrain Terminal Suite", long_about = None)]
+#[command(about = "M.A.R.I.D Terminal Suite", long_about = None)]
 struct Cli {
     #[command(subcommand)]
     command: Commands,
@@ -64,7 +64,7 @@ async fn main() -> anyhow::Result<()> {
             }
         }
         Commands::Doctor => {
-             println!("Running doctor...");
+             println!("Running M.A.R.I.D doctor...");
              // Validate config
              let path = default_config_path();
              if !path.exists() {

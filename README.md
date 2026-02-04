@@ -1,168 +1,143 @@
-# TermBrain
+# M.A.R.I.D
+> **M**arket **A**nalysis **R**esearch **I**ntelligence **D**ecisioning
 
-TermBrain is a local-first, terminal-based research and analytics suite inspired by professional financial terminals. It combines real-time market data, news aggregation, web research capabilities, and an AI "brain" into a unified workspace.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Rust](https://img.shields.io/badge/rust-stable-brightgreen.svg)](https://www.rust-lang.org/)
+[![Status](https://img.shields.io/badge/Status-Beta-orange.svg)]()
 
-## Features
+**M.A.R.I.D** is a professional-grade, local-first terminal workspace designed for deep financial research, real-time market monitoring, and AI-assisted analysis. It bridges the gap between a Bloomberg Terminal's data density and a modern AI researcher's workflow.
 
-*   **Local-First Architecture**: Runs entirely on your machine. Data is stored in a local SQLite database (`~/.termbrain/termbrain.db`).
-*   **Dual TUI Interface**:
-    *   `termbrain-live`: Always-on market monitoring (Quote Tape, Candle Charts).
-    *   `termbrain-workbench`: Deep analysis, history exploration, and AI console.
-*   **AI Brain (TBP/1)**: An integrated AI assistant (default: Gemini) that adheres to the strict **TermBrain Protocol v1** (TBP/1). It can call tools, browse the web, and perform research without hallucinating capabilities.
-*   **Tool Registry**: A centralized system for executing capabilities (`web.search`, `web.fetch`, `market.quote`) with caching, concurrency control, and audit logging (receipts).
-*   **Resilience**:
-    *   **Market Fallback**: Automatically switches to a "Mock" provider if the primary API (Binance) is unreachable or restricted.
-    *   **Graceful Degradation**: Tools like `web.search` return clear "Disabled" states if API keys are missing, preventing crashes.
+---
 
-## Zero-Code Setup with AI IDEs
+## 🚀 Vision
 
-If you are not comfortable with coding but want to run TermBrain, you can use an AI-powered IDE like **Cursor**, **Windsurf**, or **Claude Code**.
+While the current release uses **Cryptocurrency** as its default data preset (via Binance), **M.A.R.I.D** is designed to be asset-agnostic. The core architecture—time-series storage, charting, and AI analysis—is built to handle:
+*   **Stocks / Equities** (Planned)
+*   **Forex / Commodities**
+*   **Custom Alternative Data**
 
-**Copy and paste the following prompt into the AI's chat window:**
+We are building the ultimate local research OS for *any* market.
 
-> "I want to install and run the 'TermBrain' project on this machine. Please act as a senior DevOps engineer and automate the entire process for me.
->
-> 1.  Clone the repository from `https://github.com/YourRepo/TermBrain` (or use the current folder if already cloned).
-> 2.  Check if `rustup` and `cargo` are installed; if not, guide me to install them.
-> 3.  Build the project using `cargo build --release`.
-> 4.  Ask me for my **Gemini API Key** (or OpenAI Key) and **Google Custom Search Keys** (API Key and CX ID).
-> 5.  Securely export these keys in the current shell session (or add them to my shell profile like `~/.bashrc` if I approve).
-> 6.  Run the initialization command: `cargo run --bin termbrain -- init`.
-> 7.  Run the doctor command to verify everything is set up: `cargo run --bin termbrain -- doctor`.
-> 8.  Finally, start the daemon in the background and launch the `live` TUI interface.
->
-> Please explain each step you are taking."
+---
 
-## Installation
+## ✨ Key Features
+
+### 🖥️ Dual-Terminal Interface
+*   **Live Terminal**: A dedicated, distraction-free TUI for real-time monitoring. Features a high-speed Quote Tape and reactive Candle Charts.
+*   **Workbench**: A deep-dive analytics cockpit. Explore historical data, run backtests, and converse with the AI brain.
+
+### 🧠 AI Brain (TBP/1 Protocol)
+An integrated AI that follows the strict **TermBrain Protocol v1**.
+*   **No Hallucinations**: The AI cannot "pretend" to do things. It must strictly call registered Tools.
+*   **Tool-Augmented**: Can browse the web (`web.search`), fetch reports, and analyze data on demand.
+*   **Default Provider**: Optimized for **Google Gemini** (1.5 Pro), with failover to OpenAI.
+
+### 🛡️ Robust & Local-First
+*   **Privacy**: All data (keys, history, notes) lives in a local SQLite database (`~/.termbrain/termbrain.db`).
+*   **Resilience**: Smart fallbacks ensure you never lose visibility. If an API goes down, M.A.R.I.D switches to Mock data automatically, clearly flagged in the UI.
+*   **Tool Registry**: A centralized "spine" that handles caching, rate-limiting, and audit logging for every single action.
+
+---
+
+## 🔮 Roadmap: Phase 2 (Universal Markets)
+
+The next major milestone involves expanding beyond the crypto default:
+
+*   **Stock Market Integration**: First-class support for providers like **AlphaVantage**, **Polygon.io**, and **Yahoo Finance**.
+*   **Forex Support**: Dedicated tools for currency pair analysis.
+*   **Unified Symbol Search**: A global search bar ("AAPL", "BTC", "EURUSD") that auto-routes to the correct provider.
+*   **Portfolio Import**: Import CSV ledgers from major brokerages.
+
+---
+
+## 🤖 Zero-Code Setup (AI IDEs)
+
+Don't want to touch the command line? If you use **Cursor**, **Windsurf**, or **Claude Code**, copy and paste this prompt to have the AI set everything up for you:
+
+> "I want to install and run 'M.A.R.I.D' (internal name: termbrain) on this machine. Act as a DevOps engineer and automate this:
+> 1. Clone the repo (or use current dir).
+> 2. Ensure `rustup` and `cargo` are installed.
+> 3. Run `cargo build --release`.
+> 4. Ask me for my **Gemini API Key** and **Google Custom Search Keys** (API+CX).
+> 5. Securely export them in the shell.
+> 6. Initialize the DB via `cargo run --bin termbrain -- init`.
+> 7. Verify health via `cargo run --bin termbrain -- doctor`.
+> 8. Launch the Daemon in the background and open the Live TUI."
+
+---
+
+## 📦 Installation
 
 ### Prerequisites
+*   **Rust**: [Install via rustup](https://rustup.rs/)
+*   **OpenSSL**: `sudo apt install libssl-dev` (Linux) or via Homebrew (macOS).
 
-*   **Rust**: Ensure you have a recent stable version of Rust installed (via [rustup](https://rustup.rs/)).
-*   **OpenSSL**: Required for HTTPS requests (`libssl-dev` on Ubuntu/Debian).
-
-### Building
-
-Clone the repository and build the workspace:
+### Build & Run
 
 ```bash
+# 1. Build the workspace
 cargo build --release
+
+# 2. Initialize Config & DB
+./target/release/termbrain init
+
+# 3. Check Status
+./target/release/termbrain doctor
+
+# 4. Start the Brain (Daemon)
+./target/release/termbrain daemon
+
+# 5. Launch UI (in new tabs)
+./target/release/termbrain live
+./target/release/termbrain workbench
 ```
 
-The binaries will be located in `target/release/`.
+---
 
-## Quickstart
+## 🔑 Configuration & API Keys
 
-1.  **Initialize Configuration & Database**:
-    Run the init command to create the default config at `~/.termbrain/config.json` and initialize the SQLite database.
+M.A.R.I.D relies on environment variables for security.
 
-    ```bash
-    cargo run --bin termbrain -- init
-    ```
+### 1. AI Intelligence (Recommended)
+We recommend **Google Gemini** for the best balance of speed and reasoning.
+*   Get Key: [Google AI Studio](https://aistudio.google.com/app/apikey)
+*   **Set Env**: `export GEMINI_API_KEY="AIza..."`
 
-2.  **Set API Keys**:
-    Export your API keys in your shell. See [Configuration & API Keys](#configuration--api-keys) below.
+### 2. Web Research (Optional)
+Enables the AI to browse the internet for news and reports.
+*   **Keys**: `GOOGLE_CSE_API_KEY` and `GOOGLE_CSE_CX`.
+*   [Setup Guide: Custom Search JSON API](https://developers.google.com/custom-search/v1/overview)
 
-3.  **Check System Health**:
-    Run the doctor command to verify your environment and API keys.
+### 3. Market Data
+*   **Default**: Uses public Binance API (no key required for basic data).
+*   **Fallback**: Auto-mocks data if API is restricted in your region.
 
-    ```bash
-    cargo run --bin termbrain -- doctor
-    ```
+---
 
-4.  **Start the Daemon**:
-    The daemon orchestrates data ingestion, tool execution, and the AI brain. It must be running for the TUIs to work.
+## 🛠️ Usage Examples
 
-    ```bash
-    cargo run --bin termbrain -- daemon
-    ```
-
-5.  **Launch the Live Terminal**:
-    Open a new terminal window and start the Live TUI for real-time monitoring.
-
-    ```bash
-    cargo run --bin termbrain -- live
-    ```
-
-6.  **Launch the Workbench**:
-    Open another terminal window and start the Workbench for analysis.
-
-    ```bash
-    cargo run --bin termbrain -- workbench
-    ```
-
-## Configuration & API Keys
-
-TermBrain uses environment variables for sensitive API keys. You should export these in your shell profile (e.g., `.bashrc`, `.zshrc`, or Windows System Properties).
-
-### AI Providers (Gemini Default)
-
-TermBrain defaults to Google Gemini.
-
-*   **`GEMINI_API_KEY`**: (Recommended) API Key for Google Gemini.
-    *   Get a key from [Google AI Studio](https://aistudio.google.com/app/apikey).
-    *   **Model Selection**: You can change the model (e.g., `gemini-1.5-pro`, `gemini-2.0-flash`) in `~/.termbrain/config.json` under `brain.model`.
-
-*   `OPENAI_API_KEY`: (Backup) If `GEMINI_API_KEY` is not set, TermBrain will try OpenAI.
-
-### Web Research (Google Custom Search)
-To enable `web.search` capabilities, you need a Google Programmable Search Engine (CSE).
-
-1.  Create a Project in Google Cloud Console and enable the **Custom Search API**.
-2.  Create an API Key and set it as `GOOGLE_CSE_API_KEY`.
-3.  Create a Search Engine at [programmablesearchengine.google.com](https://programmablesearchengine.google.com/).
-4.  Get the Search Engine ID (CX) and set it as `GOOGLE_CSE_CX`.
-
-#### How to Set Keys
-
-**Linux / macOS:**
-Add these lines to your `~/.bashrc` or `~/.zshrc`:
+**Manual Tool Execution:**
 ```bash
-export GEMINI_API_KEY="AIzaSy..."
-export GOOGLE_CSE_API_KEY="AIzaSy..."
-export GOOGLE_CSE_CX="0123456789..."
-```
-Then run `source ~/.bashrc`.
-
-**Windows (PowerShell):**
-```powershell
-$env:GEMINI_API_KEY="AIzaSy..."
-$env:GOOGLE_CSE_API_KEY="AIzaSy..."
-$env:GOOGLE_CSE_CX="0123456789..."
+# Fetch and read a webpage
+termbrain tool run web.fetch '{"url": "https://finance.yahoo.com"}'
 ```
 
-## Tools & Agents
-
-The system comes with built-in Tools (single capabilities) and Agents (workflows). You can run them manually via CLI to test.
-
-### Available Tools
-
-*   `sys.status`: Check system health.
-*   `sys.tools.list`: List all tools.
-*   `web.search`: Search Google (requires keys).
-    *   Args: `{"query": "..."}`
-*   `web.fetch`: Scrape a URL and extract text.
-    *   Args: `{"url": "https://..."}`
-
-**Example:**
+**Running an Agent Workflow:**
 ```bash
-termbrain tool run web.fetch '{"url": "https://rust-lang.org"}'
+# Generate a market brief
+termbrain agent run agent.brief '{"symbol": "NVDA"}'
 ```
 
-### Available Agents
+---
 
-*   `agent.brief`: Research a financial symbol or topic. It performs a web search and compiles a summary.
-    *   Args: `{"symbol": "BTCUSDT"}` or `{"symbol": "Rust Language"}`
+## 🏗️ Architecture
 
-**Example:**
-```bash
-termbrain agent run agent.brief '{"symbol": "Ethereum"}'
-```
+M.A.R.I.D follows a modular workspace architecture:
 
-## Architecture
+*   `apps/daemon`: The central server and brain.
+*   `apps/live`: Real-time monitoring TUI.
+*   `apps/workbench`: Research TUI.
+*   `crates/tb-tools`: The execution spine (caching/logging).
+*   `crates/tb-brain`: The TBP/1 AI implementation.
 
-TermBrain is built as a Rust workspace with the following components:
-
-*   **Apps**: `daemon`, `live`, `workbench`, `cli`.
-*   **Crates**: `tb-tools`, `tb-agents`, `tb-brain`, `tb-ipc`, `tb-storage`, `tb-providers-*`.
-
-For more details, see [docs/architecture.md](docs/architecture.md).
+See [docs/architecture.md](docs/architecture.md) for details.

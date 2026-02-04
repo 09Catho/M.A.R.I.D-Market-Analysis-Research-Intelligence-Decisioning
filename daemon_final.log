@@ -4,3 +4,5 @@
 [2m2026-02-04T09:04:21.531467Z[0m [33m WARN[0m [2mtb_provider_market[0m[2m:[0m Binance API failed: timeout. Using random walker stub.
 [2m2026-02-04T09:24:47.017530Z[0m [33m WARN[0m [2mtb_provider_market[0m[2m:[0m Binance API failed: timeout. Using random walker stub.
 [2m2026-02-04T13:34:12.442432Z[0m [33m WARN[0m [2mtb_provider_market[0m[2m:[0m Binance API failed: timeout. Using random walker stub.
+[2m2026-02-04T14:01:44.696699Z[0m [33m WARN[0m [2mtb_provider_market[0m[2m:[0m Binance API failed: timeout. Using random walker stub.
+[2m2026-02-04T14:54:27.647724Z[0m [33m WARN[0m [2mtb_provider_market[0m[2m:[0m Binance API failed: timeout. Using random walker stub.

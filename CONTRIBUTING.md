@@ -1,6 +1,6 @@
-# Contributing
+# Contributing to M.A.R.I.D
 
-We welcome contributions to TermBrain!
+We welcome contributions to M.A.R.I.D (Market Analysis Research Intelligence Decisioning)!
 
 ## Code Style
 

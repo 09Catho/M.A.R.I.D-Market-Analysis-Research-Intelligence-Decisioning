@@ -21,7 +21,7 @@ impl Brain {
         let tool_desc = serde_json::to_string_pretty(&tools)?;
 
         let system_prompt = format!(
-            r#"You are TermBrain, an AI research assistant.
+            r#"You are M.A.R.I.D, an AI research assistant.
 Protocol TBP/1:
 1. You interact with the user and tools.
 2. Output valid JSON only.

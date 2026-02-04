@@ -1,6 +1,6 @@
 # Configuration
 
-TermBrain configuration is stored in `~/.termbrain/config.json`.
+M.A.R.I.D configuration is stored in `~/.termbrain/config.json`.
 
 ## Structure
 
@@ -11,7 +11,7 @@ TermBrain configuration is stored in `~/.termbrain/config.json`.
   "timeframe": "1m",
   "providers": {
     "ai": {
-      "chain": ["openai-main"],
+      "chain": ["gemini-main", "openai-backup"],
       "timeout_seconds": 30
     },
     "search": {
@@ -31,7 +31,7 @@ TermBrain configuration is stored in `~/.termbrain/config.json`.
     }
   },
   "brain": {
-    "model": "gpt-4o",
+    "model": "gemini-1.5-pro",
     "max_history_turns": 10
   }
 }
@@ -43,7 +43,8 @@ Sensitive keys are NOT stored in `config.json`. They must be provided via enviro
 
 | Variable | Description | Required For |
 | :--- | :--- | :--- |
-| `OPENAI_API_KEY` | OpenAI API Key (sk-...) | AI Brain |
+| `GEMINI_API_KEY` | Google Gemini API Key | AI Brain (Default) |
+| `OPENAI_API_KEY` | OpenAI API Key (sk-...) | AI Brain (Backup) |
 | `GOOGLE_CSE_API_KEY` | Google Custom Search API Key | `web.search` tool |
 | `GOOGLE_CSE_CX` | Google Custom Search Engine ID | `web.search` tool |
 | `TERMRAIN_CONFIG` | Path to override config file | Optional |
@@ -51,4 +52,4 @@ Sensitive keys are NOT stored in `config.json`. They must be provided via enviro
 ## Mock Fallbacks
 
 *   **Market**: If the configured market provider (Binance) fails (e.g., region blocking, API down), the system automatically degrades to a **Mock Provider** ("Random Walker"). This is indicated in the UI status bar as `MOCK`.
-*   **AI**: If `OPENAI_API_KEY` is missing, the Brain degrades to a **Mock Responder** that returns static messages explaining the missing configuration.
+*   **AI**: If API keys are missing, the Brain degrades to a **Mock Responder** that returns static messages explaining the missing configuration.

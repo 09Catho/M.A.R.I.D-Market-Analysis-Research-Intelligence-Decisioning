@@ -1,6 +1,6 @@
-# Architecture
+# M.A.R.I.D Architecture
 
-TermBrain is designed as a modular, local-first system.
+M.A.R.I.D (TermBrain) is designed as a modular, local-first system.
 
 ## High-Level Overview
 
@@ -12,7 +12,7 @@ TermBrain is designed as a modular, local-first system.
         | TCP (IPC)             | TCP (IPC)             | Direct/IPC
         v                       v                       v
 +----------------------------------------------------------------+
-|                       TermBrain Daemon                         |
+|                       M.A.R.I.D Daemon                         |
 |                                                                |
 |  +-----------+   +-------------+   +-----------+   +--------+  |
 |  | Providers |   | ToolRunner  |   | AI Brain  |   | Agents |  |
