@@ -14,6 +14,25 @@ TermBrain is a local-first, terminal-based research and analytics suite inspired
     *   **Market Fallback**: Automatically switches to a "Mock" provider if the primary API (Binance) is unreachable or restricted.
     *   **Graceful Degradation**: Tools like `web.search` return clear "Disabled" states if API keys are missing, preventing crashes.
 
+## Zero-Code Setup with AI IDEs
+
+If you are not comfortable with coding but want to run TermBrain, you can use an AI-powered IDE like **Cursor**, **Windsurf**, or **Claude Code**.
+
+**Copy and paste the following prompt into the AI's chat window:**
+
+> "I want to install and run the 'TermBrain' project on this machine. Please act as a senior DevOps engineer and automate the entire process for me.
+>
+> 1.  Clone the repository from `https://github.com/YourRepo/TermBrain` (or use the current folder if already cloned).
+> 2.  Check if `rustup` and `cargo` are installed; if not, guide me to install them.
+> 3.  Build the project using `cargo build --release`.
+> 4.  Ask me for my **Gemini API Key** (or OpenAI Key) and **Google Custom Search Keys** (API Key and CX ID).
+> 5.  Securely export these keys in the current shell session (or add them to my shell profile like `~/.bashrc` if I approve).
+> 6.  Run the initialization command: `cargo run --bin termbrain -- init`.
+> 7.  Run the doctor command to verify everything is set up: `cargo run --bin termbrain -- doctor`.
+> 8.  Finally, start the daemon in the background and launch the `live` TUI interface.
+>
+> Please explain each step you are taking."
+
 ## Installation
 
 ### Prerequisites
