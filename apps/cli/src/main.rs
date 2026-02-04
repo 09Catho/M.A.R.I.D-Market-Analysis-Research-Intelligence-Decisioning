@@ -89,12 +89,16 @@ async fn main() -> anyhow::Result<()> {
              }
 
              // Check env vars
-             let vars = ["OPENAI_API_KEY", "ANTHROPIC_API_KEY", "GEMINI_API_KEY", "GOOGLE_CSE_API_KEY", "GOOGLE_CSE_CX"];
+             let vars = ["GEMINI_API_KEY", "OPENAI_API_KEY", "ANTHROPIC_API_KEY", "GOOGLE_CSE_API_KEY", "GOOGLE_CSE_CX"];
              for var in vars {
                  if std::env::var(var).is_ok() {
                      println!("✅ {} is set.", var);
                  } else {
-                     println!("⚠️ {} is NOT set.", var);
+                     if var == "GEMINI_API_KEY" {
+                         println!("⚠️ {} is NOT set (Recommended Default).", var);
+                     } else {
+                         println!("⚠️ {} is NOT set.", var);
+                     }
                  }
              }
         }

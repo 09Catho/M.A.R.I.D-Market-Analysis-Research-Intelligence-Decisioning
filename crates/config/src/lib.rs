@@ -23,18 +23,18 @@ pub struct ProvidersConfig {
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct AiProviders {
-    pub chain: Vec<String>, // e.g. ["openai-main", "anthropic-backup"]
+    pub chain: Vec<String>,
     pub timeout_seconds: u64,
 }
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct SearchProvider {
-    pub provider: String, // "google_cse"
+    pub provider: String,
 }
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct MarketProvider {
-    pub provider: String, // "binance"
+    pub provider: String,
     pub polling_interval_ms: u64,
     pub symbols: Vec<String>,
 }
@@ -47,7 +47,7 @@ pub struct NewsProvider {
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct BrainConfig {
-    pub model: String, // default model to use? Or handled by provider chain?
+    pub model: String,
     pub max_history_turns: usize,
 }
 
@@ -69,7 +69,7 @@ impl Default for Config {
             timeframe: "1m".to_string(),
             providers: ProvidersConfig {
                 ai: AiProviders {
-                    chain: vec!["openai-main".to_string(), "anthropic-backup".to_string()],
+                    chain: vec!["gemini-main".to_string(), "openai-backup".to_string()],
                     timeout_seconds: 30,
                 },
                 search: SearchProvider {
@@ -89,7 +89,7 @@ impl Default for Config {
                 },
             },
             brain: BrainConfig {
-                model: "gpt-4o".to_string(),
+                model: "gemini-1.5-pro".to_string(),
                 max_history_turns: 10,
             },
             ml: MlConfig {

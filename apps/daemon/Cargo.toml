@@ -16,5 +16,7 @@ tb-ipc = { workspace = true }
 tb-storage = { workspace = true }
 tb-provider-market = { workspace = true }
 tb-provider-news = { workspace = true }
+tb-provider-ai = { workspace = true }
 tb-tools = { workspace = true }
 tb-agents = { workspace = true }
+tb-brain = { workspace = true }
