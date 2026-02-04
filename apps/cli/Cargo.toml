@@ -1,0 +1,19 @@
+[package]
+name = "termbrain"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+anyhow = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+clap = { workspace = true }
+tb-config = { workspace = true }
+tb-storage = { workspace = true }
+directories = { workspace = true }
+tb-ipc = { workspace = true }
+tb-tools = { workspace = true }
+tb-agents = { workspace = true }

@@ -1,0 +1,19 @@
+[package]
+name = "tb-brain"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+anyhow = { workspace = true }
+tracing = { workspace = true }
+async-trait = { workspace = true }
+tb-tools = { workspace = true }
+tb-config = { workspace = true }
+tb-provider-ai = { workspace = true }
+tb-storage = { workspace = true }
+sqlx = { workspace = true }
+uuid = { workspace = true }
+chrono = { workspace = true }

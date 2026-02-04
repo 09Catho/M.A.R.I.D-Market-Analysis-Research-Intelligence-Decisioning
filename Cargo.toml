@@ -1,0 +1,62 @@
+[workspace]
+resolver = "2"
+members = [
+    "apps/daemon",
+    "apps/live",
+    "apps/workbench",
+    "apps/cli",
+    "crates/config",
+    "crates/ipc",
+    "crates/storage",
+    "crates/providers/ai",
+    "crates/providers/search",
+    "crates/providers/web",
+    "crates/providers/market",
+    "crates/providers/news",
+    "crates/tools",
+    "crates/ml",
+    "crates/brain",
+    "crates/agents",
+    "crates/ui_widgets",
+]
+
+[workspace.dependencies]
+tokio = { version = "1", features = ["full"] }
+tokio-util = { version = "0.7", features = ["codec"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+anyhow = "1"
+thiserror = "1"
+tracing = "0.1"
+tracing-subscriber = "0.3"
+reqwest = { version = "0.11", features = ["json", "rustls-tls"] }
+sqlx = { version = "0.7", features = ["runtime-tokio-rustls", "sqlite", "macros", "chrono", "uuid"] }
+ratatui = "0.26"
+crossterm = "0.27"
+clap = { version = "4", features = ["derive"] }
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1", features = ["v4", "serde"] }
+async-trait = "0.1"
+futures = "0.3"
+regex = "1"
+directories = "5"
+config = "0.14"
+csv = "1.3"
+rss = "2.0"
+readability = "0.3"
+sha2 = "0.10"
+hex = "0.4"
+# Inter-crate dependencies
+tb-config = { path = "crates/config" }
+tb-ipc = { path = "crates/ipc" }
+tb-storage = { path = "crates/storage" }
+tb-provider-ai = { path = "crates/providers/ai" }
+tb-provider-search = { path = "crates/providers/search" }
+tb-provider-web = { path = "crates/providers/web" }
+tb-provider-market = { path = "crates/providers/market" }
+tb-provider-news = { path = "crates/providers/news" }
+tb-tools = { path = "crates/tools" }
+tb-ml = { path = "crates/ml" }
+tb-brain = { path = "crates/brain" }
+tb-agents = { path = "crates/agents" }
+tb-ui-widgets = { path = "crates/ui_widgets" }

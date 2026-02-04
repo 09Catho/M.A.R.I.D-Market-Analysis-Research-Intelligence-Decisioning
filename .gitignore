@@ -1,0 +1,8 @@
+target/
+**/*.rs.bk
+.env
+.idea/
+.vscode/
+*.db
+*.db-shm
+*.db-wal

@@ -1,0 +1,674 @@
+[2m2026-02-03T21:54:13.736425Z[0m [32m INFO[0m [2mtermbrain_daemon[0m[2m:[0m Starting TermBrain Daemon...
+[2m2026-02-03T21:54:13.739810Z[0m [32m INFO[0m [2mtb_ipc::server[0m[2m:[0m IPC Server listening on 127.0.0.1:9000
+[2m2026-02-03T21:54:13.891668Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:13.903937Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:13.915919Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:13.927969Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:13.939702Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:13.951654Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:18.970767Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:18.986817Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:18.999614Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:19.011747Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:19.023888Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:19.036080Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:24.049145Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:24.061350Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:24.073374Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:24.085326Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:24.110121Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:24.122090Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:29.135793Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:29.148052Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:29.162042Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:29.174019Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:29.186133Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:29.198107Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:34.212331Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:34.224188Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:34.235924Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:34.247528Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:34.261599Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:34.273130Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:39.286835Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:39.299208Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:39.311382Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:39.323416Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:39.335116Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:39.346896Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:44.360189Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:44.372539Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:44.384870Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:44.396778Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:44.408866Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:44.420523Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:49.434737Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:49.447099Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:49.459205Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:49.471161Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:49.483395Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:49.495324Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:54.510364Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:54.522371Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:54.534506Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:54.546476Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:54.558431Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:54.570378Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:59.584598Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:59.596572Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:59.608557Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:59.620761Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:59.632676Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:54:59.644781Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:04.658130Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:04.670182Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:04.682019Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:04.693903Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:04.706561Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:04.718811Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:09.732845Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:09.745596Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:09.757294Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:09.769281Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:09.781447Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:09.793500Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:14.808994Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:14.821580Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:14.833879Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:14.845682Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:14.857833Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:14.869470Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:19.883429Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:19.895735Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:19.909391Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:19.921749Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:19.933448Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:19.945677Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:24.959347Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:24.971337Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:24.982988Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:24.994947Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:25.006480Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:25.018245Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:30.033097Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:30.045068Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:30.056937Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:30.068722Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:30.080798Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:30.092513Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:35.106490Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:35.119382Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:35.131309Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:35.143220Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:35.155178Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:35.166699Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:40.180698Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:40.192653Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:40.204457Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:40.216028Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:40.227745Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:40.239421Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:45.252697Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:45.264571Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:45.276168Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:45.287790Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:45.299334Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:45.310920Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:50.326566Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:50.338499Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:50.350278Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:50.361968Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:50.373689Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:50.385706Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:55.399578Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:55.411558Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:55.423420Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:55.435433Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:55.447591Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:55:55.459302Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:00.474214Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:00.486108Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:00.498788Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:00.510669Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:00.522381Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:00.535467Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:05.550861Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:05.562819Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:05.574474Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:05.586281Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:05.597887Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:05.609478Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:10.623573Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:10.635298Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:10.646896Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:10.658853Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:10.670953Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:10.682641Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:15.696175Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:15.708314Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:15.720005Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:15.731752Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:15.743646Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:15.755588Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:20.769186Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:20.781549Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:20.793971Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:20.805982Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:20.818471Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:20.830770Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:25.844938Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:25.856756Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:25.868782Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:25.880484Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:25.892295Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:25.904348Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:30.918463Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:30.930574Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:30.942255Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:30.954814Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:30.966727Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+[2m2026-02-03T21:56:30.978422Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: Binance error: {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}

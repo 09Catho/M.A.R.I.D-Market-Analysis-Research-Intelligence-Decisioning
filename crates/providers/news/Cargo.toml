@@ -1,0 +1,20 @@
+[package]
+name = "tb-provider-news"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+anyhow = { workspace = true }
+tracing = { workspace = true }
+reqwest = { workspace = true }
+rss = { workspace = true }
+sha2 = { workspace = true }
+hex = { workspace = true }
+tb-storage = { workspace = true }
+tb-ipc = { workspace = true }
+tb-config = { workspace = true }
+sqlx = { workspace = true }
+chrono = { workspace = true }

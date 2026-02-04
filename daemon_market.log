@@ -1,0 +1,98 @@
+[2m2026-02-03T21:52:01.263260Z[0m [32m INFO[0m [2mtermbrain_daemon[0m[2m:[0m Starting TermBrain Daemon...
+[2m2026-02-03T21:52:01.266923Z[0m [32m INFO[0m [2mtb_ipc::server[0m[2m:[0m IPC Server listening on 127.0.0.1:9000
+[2m2026-02-03T21:52:01.424821Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:01.436661Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:01.448505Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:01.460380Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:01.472239Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:01.483877Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:06.498146Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:06.511278Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:06.523878Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:06.536605Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:06.549434Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:06.562378Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:11.576806Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:11.588676Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:11.600492Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:11.612389Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:11.624497Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:11.636199Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:16.650351Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:16.662491Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:16.674500Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:16.686344Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:16.698283Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:16.710112Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:21.724755Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:21.737064Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:21.749283Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:21.761190Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:21.773181Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:21.785140Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:26.799231Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:26.811434Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:26.823368Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:26.835377Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:26.847389Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:26.859404Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:31.873442Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:31.885328Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:31.897658Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:31.909365Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:31.921457Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:31.933897Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:36.946978Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:36.959529Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:36.971635Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:36.983820Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:36.995903Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:37.008014Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:42.021047Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:42.033274Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:42.045251Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:42.057460Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:42.069649Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:42.081712Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:47.095311Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:47.108483Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:47.120900Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:47.132876Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:47.144925Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:47.156862Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:52.170191Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:52.182611Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:52.194919Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:52.207655Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:52.219769Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:52.232468Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:57.245762Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:57.257981Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:57.270194Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:57.282235Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:52:57.294243Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:52:57.306538Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:53:02.319706Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:53:02.332094Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:53:02.345522Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:53:02.357512Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:53:02.370781Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:53:02.382776Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:53:07.396677Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:53:07.408930Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:53:07.420869Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:53:07.433243Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:53:07.445033Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:53:07.456881Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:53:12.470463Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:53:12.482507Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:53:12.494611Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:53:12.506257Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:53:12.518700Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:53:12.530728Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:53:17.544219Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for BTCUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:53:17.556517Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for BTCUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:53:17.568947Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for ETHUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:53:17.580819Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for ETHUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0
+[2m2026-02-03T21:53:17.592689Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Quote fetch error for SOLUSDT: error decoding response body: missing field `symbol` at line 4 column 1
+[2m2026-02-03T21:53:17.604675Z[0m [31mERROR[0m [2mtb_provider_market[0m[2m:[0m Bars fetch error for SOLUSDT: error decoding response body: invalid type: map, expected a sequence at line 1 column 0

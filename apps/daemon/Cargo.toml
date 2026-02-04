@@ -1,0 +1,20 @@
+[package]
+name = "termbrain-daemon"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+anyhow = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt"] }
+clap = { workspace = true }
+tb-config = { workspace = true }
+tb-ipc = { workspace = true }
+tb-storage = { workspace = true }
+tb-provider-market = { workspace = true }
+tb-provider-news = { workspace = true }
+tb-tools = { workspace = true }
+tb-agents = { workspace = true }
